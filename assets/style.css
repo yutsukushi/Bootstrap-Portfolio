@@ -15,13 +15,19 @@ body {
 
 h1 {
     color: #fff;
-    padding: 0 16px;
+    padding: 16px 16px;
     margin-bottom: 0;
+    font-size: 36px;
 }
 
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;  
     color: #4aaaa5;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .nav-item {
@@ -63,6 +69,22 @@ p {
 
 .p-container {
     margin-top: 30px;
+}
+
+/* Portfolio */
+
+.cat-1 {
+    position: relative;
+}
+
+.label {
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 274px;
+    position: absolute;
+    bottom: -4%;
+    text-align: center;
+    padding: 10px;
 }
 
 /* Contact page */
