@@ -57,12 +57,11 @@ h5 {
 .nav-link {
     padding: 0;
     font-size: 18px;
-    
 }
 
 .jumbotron {
     background-color: #fff;
-    margin-bottom: 8rem;
+    margin-bottom: 0;
 }
 
 hr {
@@ -101,6 +100,10 @@ p {
 margin-top: 20px;
 }
 
+.port-contain {
+    margin-bottom: 8rem;
+}
+
 /* Contact page */
 
 .btn {
@@ -111,6 +114,10 @@ margin-top: 20px;
 
 .card {
     padding-left: 0;
+}
+
+.card-title {
+    margin-bottom: 0;
 }
 
 .socials {
@@ -128,6 +135,11 @@ margin-top: 20px;
 
 .contact-box {
     margin-top: 0;
+    margin-bottom: 8rem;
+}
+
+.col-md-3 {
+    padding: 0;
 }
 
 /* Footer */
