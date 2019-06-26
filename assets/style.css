@@ -29,6 +29,10 @@ h3 {
     font-size: 24px;
 }
 
+h5 {
+    font-size: 18px;
+}
+
 .container {
     padding-left: 0;
     padding-right: 0;
@@ -58,7 +62,7 @@ h3 {
 
 .jumbotron {
     background-color: #fff;
-   
+    margin-bottom: 8rem;
 }
 
 hr {
@@ -88,20 +92,21 @@ p {
 }
 
 .card-body {
-    background-color: #4aaaa5;
-    color: #fff;
     width: 286px;
-    position: absolute;
-    bottom: 4%;
     text-align: center;
-    padding: 10px 10px 0 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+.deployed {
+margin-top: 20px;
+}
+
 /* Contact page */
 
 .btn {
     background-color: #4aaaa5;
     border: none;
+    border-radius: 0 0 .25rem .25rem;
 }
 
 .card {
