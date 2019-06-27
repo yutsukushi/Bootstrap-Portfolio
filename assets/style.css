@@ -140,6 +140,7 @@ margin-top: 20px;
 
 .col-md-3 {
     padding: 0;
+    margin-left: 3rem;
 }
 
 /* Footer */
@@ -147,4 +148,43 @@ margin-top: 20px;
     height: 66px;
     border-top: 5px solid #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Mobile Responsiveness */
+/* Portrait mode for phones */
+@media (max-width: 575.98px) {
+    .about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-box {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+    }
+
+    .socials {
+        margin-left: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .col-md-3 {
+        margin-left: 0;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .socials {
+        margin-left: 0;
+    }
+
+   
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
 }
