@@ -13,6 +13,10 @@ body {
     padding-bottom: .5rem;
 }
 
+.navbar-collapse {
+    padding-right: 0;
+}
+
 h1 {
     color: #777777;
     padding: 16px 16px;
@@ -36,18 +40,23 @@ h5 {
 .container {
     padding-left: 0;
     padding-right: 0;
-    
 }
 
 .nav-item {
     margin-right: 20px;
-    border-right: 2px solid #dddddd;
+    margin-top: 10px;
+    /* border-right: 2px solid #dddddd; */
+
 }
 
 .nav-item:last-child {
     margin-right: 0;
     border: none;
     width: 65px;
+}
+
+.navbar-nav {
+    padding: 20px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
