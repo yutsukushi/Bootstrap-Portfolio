@@ -190,10 +190,9 @@ margin-top: 20px;
         margin-left: 0;
     }
 
-   
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    
+    .col-md-3 {
+        margin-left: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
