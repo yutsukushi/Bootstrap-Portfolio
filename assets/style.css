@@ -1,14 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: url('images/stardust.png');
+    position: relative;
 }
 
 .navbar {
-    padding: 0rem;
+    padding-top: 2rem;
 }
 
 .navbar-brand {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    /* background-color: #4aaaa5; */
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
@@ -17,17 +19,47 @@ body {
     padding-right: 0;
 }
 
+.landing {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 42px;
+    padding: 10rem;
+    margin: 10rem auto 20rem auto;
+}
+
 h1 {
     color: #777777;
     padding: 16px 16px;
     margin-bottom: 0;
     font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'futura-pt', sans-serif;
+    letter-spacing: 6px;
+}   
+
+.darrow {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+}
+
+.pwrap {
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    position: absolute;
+    top: 100vh;
+}
+
+#phead {
+    padding-top: 3rem;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: #777777;
     letter-spacing: 1px;
     font-size: 24px;
@@ -40,19 +72,17 @@ h5 {
 .container {
     padding-left: 0;
     padding-right: 0;
+    margin: auto auto;
 }
 
 .nav-item {
     margin-right: 20px;
-    margin-top: 10px;
-    /* border-right: 2px solid #dddddd; */
-
+    letter-spacing: 2px;
 }
 
 .nav-item:last-child {
     margin-right: 0;
     border: none;
-    width: 65px;
 }
 
 .navbar-nav {
@@ -64,6 +94,9 @@ h5 {
 }
 
 .nav-link {
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 0;
     font-size: 18px;
 }
@@ -86,7 +119,10 @@ hr {
 p {
     text-indent: 15px;
     color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
     line-height: 25px;
   }
 
@@ -102,7 +138,9 @@ p {
 .card-body {
     width: 286px;
     text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: interstate, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .deployed {
@@ -155,7 +193,7 @@ margin-top: 20px;
 /* Footer */
 .f-details {
     height: 66px;
-    border-top: 5px solid #4aaaa5;
+    /* border-top: 5px solid #4aaaa5; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
