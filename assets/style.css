@@ -122,10 +122,13 @@ p {
     font-family: 'futura-pt', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
   }
 
+.skills {
+    font-size: 24px;
+}
 .p-container {
     margin-top: 30px;
 }
