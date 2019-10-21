@@ -118,7 +118,7 @@ hr {
     margin-left: 0;
 }
 
-p {
+.p-container p {
     text-indent: 15px;
     color: #777777;
     font-family: 'futura-pt', sans-serif;
@@ -129,11 +129,24 @@ p {
   }
 
 .skills {
-    font-size: 24px;
+    font-size: 30px;
+    text-indent: 15px;
+    color: #777777;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
 }
 
 .soft-skills {
     margin-top: 10px;
+    text-indent: 15px;
+    color: #777777;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .p-container {
@@ -203,6 +216,11 @@ margin-top: 20px;
 
 .project-desc p {
     font-size: 20px;
+    color: #777777;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
 }
 
 .project-links {
