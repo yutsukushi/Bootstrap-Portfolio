@@ -55,6 +55,7 @@ h1 {
 
 #phead {
     padding-top: 3rem;
+    text-align: center;
 }
 
 h3 {
@@ -177,6 +178,55 @@ margin-top: 20px;
     width: 100%;
 }
 
+/* Project pages */
+
+.project-img {
+    height: 60vh;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-title h2 {
+    font-size: 28px;
+    font-family: 'futura-pt', sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
+    padding: 24px;
+}
+
+.project-desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project-desc p {
+    font-size: 20px;
+}
+
+.project-links {
+    text-align: center;
+}
+
+.project-icons {
+    display: inline-flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.w-100 {
+    width: 80%!important;
+    margin: 0 auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 30%;
+}
+
+.mb-5 {
+    margin-bottom: 8rem!important;
+}
 /* Contact page */
 
 .btn {
