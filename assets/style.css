@@ -206,12 +206,36 @@ margin-top: 20px;
     font-family: 'futura-pt', sans-serif;
     color: #777777;
     letter-spacing: 3px;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.project-title h3 {
+    font-size: 20px;
+    padding-bottom: 24px;
+    font-style: italic;
+}
+
+.project-title h4 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'futura-pt', sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
+    padding-bottom: 12px;
+}
+
+.project-title h5 {
+    font-size: 16px;
+    font-family: 'futura-pt', sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
 }
 
 .project-desc {
     width: 80%;
     margin: 0 auto;
+    padding-top: 12px;
 }
 
 .project-desc p {
