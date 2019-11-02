@@ -25,7 +25,7 @@ body {
     font-style: normal;
     font-size: 42px;
     padding: 10rem;
-    margin: 10rem auto 20rem auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -40,8 +40,8 @@ h1 {
 .darrow {
     height: 60px;
     margin: 0 auto;
-    position: absolute;
-    top: 80vh;
+    position: relative;
+    /* top: 80vh; */
     left: 50%;
 }
 
@@ -118,7 +118,7 @@ hr {
     margin-left: 0;
 }
 
-p {
+.p-container p {
     text-indent: 15px;
     color: #777777;
     font-family: 'futura-pt', sans-serif;
@@ -129,11 +129,24 @@ p {
   }
 
 .skills {
-    font-size: 24px;
+    font-size: 30px;
+    text-indent: 15px;
+    color: #777777;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
 }
 
 .soft-skills {
     margin-top: 10px;
+    text-indent: 15px;
+    color: #777777;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .p-container {
@@ -163,19 +176,99 @@ margin-top: 20px;
 
 #portfolio-section {
     position: relative;
+    margin: 0 auto;
 }
 
 #socials-section {
-    position: absolute;
+    position: relative;
     bottom: 15%;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .social-h1 {
     width: 100%;
 }
 
+/* Project pages */
+
+.project-img {
+    height: 60vh;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-title h2 {
+    font-size: 28px;
+    font-family: 'futura-pt', sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.project-title h3 {
+    font-size: 20px;
+    padding-bottom: 24px;
+    font-style: italic;
+}
+
+.project-title h4 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'futura-pt', sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
+    padding-bottom: 12px;
+}
+
+.project-title h5 {
+    font-size: 16px;
+    font-family: 'futura-pt', sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
+}
+
+.project-desc {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.project-desc p {
+    font-size: 20px;
+    color: #777777;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.project-links {
+    text-align: center;
+}
+
+.project-icons {
+    display: inline-flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.w-100 {
+    width: 80%!important;
+    margin: 0 auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 30%;
+}
+
+.mb-5 {
+    margin-bottom: 8rem!important;
+}
 /* Contact page */
 
 .btn {
@@ -219,7 +312,7 @@ margin-top: 20px;
     margin-left: 3rem;
 }
 
-/* Footer */
+/* Socials section */
 .f-details {
     height: 100px;
     /* border-top: 5px solid #4aaaa5; */
@@ -245,6 +338,15 @@ margin-top: 20px;
     margin-right: 30px;
     align-items: center;
 }
+
+/* Footer */
+
+/* footer {
+    position: fixed;
+    height: 10rem;
+    color: black;
+} */
+
 /* Mobile Responsiveness */
 /* Portrait mode for phones */
 @media (max-width: 575.98px) {
