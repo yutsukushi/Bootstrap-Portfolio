@@ -356,9 +356,39 @@ margin-top: 20px;
 /* Mobile Responsiveness */
 /* Portrait mode for phones */
 @media (max-width: 575.98px) {
+    
+    h1 {
+        font-size: 34px;
+    }
+
+   .navbar-nav {
+       flex-direction: initial;
+       padding-left: 27px;
+       padding-top: 0;
+   }
+
+   .nav-item {
+       margin-right: 34px;
+   }
+    .darrow {
+        display: block;
+        left: 0;
+        top: 0;
+        margin-top: 50px;
+    }
+
     .about {
         width: 90%;
         margin: 0 auto;
+    }
+
+    .landing {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
     }
 
     .contact-box {
