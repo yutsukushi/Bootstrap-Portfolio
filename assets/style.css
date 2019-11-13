@@ -473,3 +473,31 @@ margin-top: 20px;
         margin-bottom: 10%;
     }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container {
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
+
+    #portfolio-section {
+        margin-top: 8rem;
+    }
+
+    .port-contain {
+        margin-bottom: 0;
+    }
+
+    .darrow {
+        display: none;
+    }
+
+    .card {
+        margin-right: 3rem!important;
+    }
+
+    .card-display {
+        margin-left: 5rem;
+    }
+ }
