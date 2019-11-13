@@ -48,8 +48,8 @@ h1 {
 .pwrap {
     padding-top: 3rem;
     padding-bottom: 8rem;
-    position: absolute;
-    top: 100vh;
+    /* position: absolute;
+    top: 100vh; */
     
 }
 
@@ -389,6 +389,11 @@ margin-top: 20px;
         justify-content: center;
         align-items: center;
         min-height: 100%;
+        font-weight: 500;
+    }
+
+    .skills {
+        font-size: 27px;
     }
 
     .contact-box {
@@ -397,10 +402,18 @@ margin-top: 20px;
         margin-bottom: 8rem;
     }
 
+    #portfolio-section {
+        margin-top: 20%;
+    }
+
     .socials {
         margin-left: 0;
         width: 80%;
         margin: 0 auto;
+    }
+
+    #socials-section {
+        margin-bottom: 70%;
     }
 
     .col-md-3 {
