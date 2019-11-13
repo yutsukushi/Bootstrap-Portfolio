@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -74,7 +82,7 @@ h5 {
 .container {
     padding-left: 0;
     padding-right: 0;
-    margin: auto auto;
+    margin: 0 auto;
 }
 
 .nav-item {
@@ -113,10 +121,10 @@ hr {
     margin-bottom: 0;
 }
 
-.row {
+/* .row {
     margin-right: 0;
     margin-left: 0;
-}
+} */
 
 .p-container p {
     text-indent: 15px;
@@ -345,14 +353,6 @@ margin-top: 20px;
     align-items: center;
 }
 
-/* Footer */
-
-/* footer {
-    position: fixed;
-    height: 10rem;
-    color: black;
-} */
-
 /* Mobile Responsiveness */
 /* Portrait mode for phones */
 @media (max-width: 575.98px) {
@@ -423,13 +423,53 @@ margin-top: 20px;
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+
+    .container {
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
+
+    .card {
+        margin-right: 0!important;
+    }
+
     .socials {
         margin-left: 0;
+    }
+
+    .navbar {
+        padding-top: 1rem;
+    }
+    
+    .navbar-nav {
+        flex-direction: initial;
+        padding: 0;
+    }
+
+    .darrow {
+        display: block;
+        left: 0;
+        top: 0;
+        margin-top: 50px;
+    }
+
+    .landing {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+        font-weight: 450;
     }
 
     .col-md-3 {
         margin-left: 0;
         width: 80%;
         margin: 0 auto;
+    }
+
+    #socials-section {
+        margin-bottom: 10%;
     }
 }
