@@ -279,10 +279,10 @@ margin-top: 20px;
     margin-bottom: 8rem!important;
 }
 
-.carousel img {
-    min-width: 100%;
-    height: 600px;
-    max-width: none;
+.carousel-inner img {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
 }
 /* Contact page */
 
@@ -420,6 +420,15 @@ margin-top: 20px;
     .col-md-3 {
         margin-left: 0;
     }
+
+    .project-icons {
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .project-desc {
+        margin-bottom: 3rem;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -473,6 +482,8 @@ margin-top: 20px;
     #socials-section {
         margin-bottom: 10%;
     }
+
+   
 }
 
 /* Medium devices (tablets, 768px and up) */
