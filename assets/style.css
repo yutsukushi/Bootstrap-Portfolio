@@ -56,6 +56,7 @@ h1 {
 .pwrap {
     padding-top: 3rem;
     padding-bottom: 8rem;
+    position: relative;
     /* position: absolute;
     top: 100vh; */
     
@@ -477,8 +478,7 @@ margin-top: 20px;
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .container {
-        margin-right: 1rem;
-        margin-left: 2rem;
+        margin: 0 auto;
     }
 
     #portfolio-section {
@@ -503,7 +503,7 @@ margin-top: 20px;
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .container {
-        margin-left: 7rem;
+        margin: 0 auto;
     }
     .card-display {
         margin-left: 7rem;
@@ -535,5 +535,12 @@ margin-top: 20px;
 
     .darrow {
         display: block;
+    }
+
+    .card-display {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 3rem;
     }
 }
