@@ -429,6 +429,21 @@ margin-top: 20px;
     .project-desc {
         margin-bottom: 3rem;
     }
+
+    .carousel {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .mt-5 {
+        margin-top: 0!important;
+    }
+
+    .about h3 {
+        text-align: center;
+    }
+
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
