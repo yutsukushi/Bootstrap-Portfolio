@@ -534,6 +534,10 @@ margin-top: 20px;
     .card-display {
         margin-left: 7rem;
     }
+
+    .project-desc {
+        margin-bottom: 7rem;
+    }
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
