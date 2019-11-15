@@ -524,6 +524,10 @@ margin-top: 20px;
         margin-left: 3.5rem!important;
     }
 
+    .project-desc {
+        margin-bottom: 7rem;
+    }
+
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -572,5 +576,9 @@ margin-top: 20px;
         justify-content: center;
         align-items: center;
         margin-left: 3rem;
+    }
+
+    .project-desc {
+        margin-bottom: 7rem;
     }
 }
