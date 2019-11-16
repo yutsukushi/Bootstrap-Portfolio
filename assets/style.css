@@ -53,6 +53,27 @@ h1 {
     left: 50%;
 }
 
+.carousel-control-prev-icon {
+
+    background-image: url(/assets/images/baseline_keyboard_arrow_left_black_18dp.png);
+
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.carousel-control-next-icon {
+
+    background-image: url(/assets/images/baseline_keyboard_arrow_right_black_18dp.png);
+
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 .pwrap {
     padding-top: 3rem;
     padding-bottom: 8rem;
